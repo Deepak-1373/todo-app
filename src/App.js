@@ -39,7 +39,7 @@ function App() {
             Add Todo
         </Button>
       </form>
-      
+
       <ul>
         {todos.map(todo =>(
           <Todo todo = {todo} />
